@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(165,248,101);
+}
+
+.heading{
+    text-align: center;
+    color: rgb(159,79,162);
+    font-size: xx-large;
+    margin: 5px 0 5px 0;
+}
+
+#about{
+    text-align: center;
+}
+
+
+
