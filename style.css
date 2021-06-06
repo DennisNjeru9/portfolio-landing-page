@@ -1,15 +1,16 @@
 html{
     height: 100vh;
+    margin: auto;
 }
 
 body{
-    background-color: rgba(128,151,203,0.2);
-    min-height:100vh;
+    background-image: url("ocean1.jpg");
+    background-size: cover;
 }
 
 .heading{
     text-align: center;
-    color: rgb(94,70,170);
+    color: rgb(0,0,0);
     font-size: xx-large;
     margin: 2px 0 5px 0;
 }
@@ -28,17 +29,27 @@ body{
 
 #education{
     padding: 5px 60px 5px 50px;
-    background-color: rgba(255,149,104,0.9);
+    background-color: rgba(0,224,128,0.6);
+    font-size: large;
 }
 
 #job{
     padding: 5px 50px 5px 50px;
-    background-color: rgba(161,0,154,0.7);
+    background-color:rgba(113,191,191,0.6);
 }
 
 #hobbies{
     padding: 5px 40px 5px 20px;
-    background-color: rgba(255,149,104,0.9);
+    background-color: rgba(0,224,128,0.6);
+}
+
+.moringa{
+    border: 1px solid rgb(91,228,169);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: rgba(91,228,169,0.4);
 }
 
 #moringa{
@@ -61,7 +72,7 @@ body{
 
 .second_projects{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: large;
 }
 
@@ -87,20 +98,44 @@ body{
     border: 2px solid #ff4c00;
     border-radius: 7px;
     margin-bottom: 1px;
-
+    background-color: rgba(245,245,245,0.4);
 }
 
 #favorite{
     padding: 3px;
-    background-color: #71bfbf;
+    background-color: rgba(98,169,224,0.7);
+    margin: 5px;
 }
 
 #anitas{
     padding: 3px;
-    background-color: #5e46aa;
+    background-color: rgba(33,143,227,0.25);
+    margin: 5px;
 }
 
 #dairy{
     padding: 3px;
-    background-color: #71bfbf;
+    background-color: rgba(98,169,224,0.7);
+    margin: 5px;
+}
+
+#share{
+    margin: 5px 5px 5px 40px;
+    padding: 5px;
+    background-color: rgba(33,143,227,0.25);
+}
+
+#portfolio{
+    margin: 5px 40px 5px 5px;
+    padding: 5px;
+    background-color: rgba(98,169,224,0.5);
+}
+
+.github{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 2px;
+    background-color: rgba(0,224,128,0.6);
+    border: 1px solid #319494;
+    border-radius: 6px;
 }
