@@ -13,5 +13,13 @@ body{
     text-align: center;
 }
 
+.about_me{
+    display: flex;
+    justify-content: space-around;
+}
 
-
+#joining_moringa{
+    display: flex;
+    justify-content: center;
+    margin: 0 100px 0 100px;
+}
