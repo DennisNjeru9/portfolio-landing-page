@@ -139,3 +139,14 @@ body{
     border: 1px solid #319494;
     border-radius: 6px;
 }
+
+.title{
+    text-align: center;
+    font-weight: 700;
+    color: #040467;
+}
+
+h2{
+    color: #1b0366;
+    font-size: xx-large;
+}
