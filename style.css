@@ -53,10 +53,24 @@ body{
     font-size: large;
 }
 
-.previous_projects{
+.first_projects{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    font-size: large;
+}
+
+.second_projects{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+
+.projects{
+    text-align: center;
+}
+
+.projects,p{
+    font-size: large;
 }
 
 .socials{
@@ -74,4 +88,19 @@ body{
     border-radius: 7px;
     margin-bottom: 1px;
 
+}
+
+#favorite{
+    padding: 3px;
+    background-color: #71bfbf;
+}
+
+#anitas{
+    padding: 3px;
+    background-color: #5e46aa;
+}
+
+#dairy{
+    padding: 3px;
+    background-color: #71bfbf;
 }
