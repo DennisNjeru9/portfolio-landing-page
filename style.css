@@ -36,11 +36,13 @@ body{
 #job{
     padding: 5px 50px 5px 50px;
     background-color:rgba(113,191,191,0.6);
+    font-size: large;
 }
 
 #hobbies{
     padding: 5px 40px 5px 20px;
     background-color: rgba(0,224,128,0.6);
+    font-size: large;
 }
 
 .moringa{
