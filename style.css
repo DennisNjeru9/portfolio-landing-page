@@ -1,12 +1,17 @@
+html{
+    height: 100vh;
+}
+
 body{
-    background-color: rgb(165,248,101);
+    background-color: rgba(128,151,203,0.2);
+    min-height:100vh;
 }
 
 .heading{
     text-align: center;
-    color: rgb(159,79,162);
+    color: rgb(94,70,170);
     font-size: xx-large;
-    margin: 5px 0 5px 0;
+    margin: 2px 0 5px 0;
 }
 
 #about{
@@ -16,10 +21,57 @@ body{
 .about_me{
     display: flex;
     justify-content: space-around;
+    border: 2px solid;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+#education{
+    padding: 5px 60px 5px 50px;
+    background-color: rgba(255,149,104,0.9);
+}
+
+#job{
+    padding: 5px 50px 5px 50px;
+    background-color: rgba(161,0,154,0.7);
+}
+
+#hobbies{
+    padding: 5px 40px 5px 20px;
+    background-color: rgba(255,149,104,0.9);
+}
+
+#moringa{
+    text-align: center;
+    margin: 5px;
 }
 
 #joining_moringa{
     display: flex;
     justify-content: center;
     margin: 0 100px 0 100px;
+    font-size: large;
+}
+
+.previous_projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+
+#contact{
+    text-align: center;
+}
+
+.contact{
+    border: 2px solid #ff4c00;
+    border-radius: 7px;
+    margin-bottom: 1px;
+
 }
