@@ -10,9 +10,14 @@ body{
 
 .heading{
     text-align: center;
-    color: rgba(245,245,245,0.8);
+    color: rgba(0,0,0,0.8);
     font-size: xx-large;
-    margin: 2px 0 5px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0 10px 0;
+}
+
+#name{
+    color: darkgreen;
 }
 
 #about{
@@ -23,9 +28,7 @@ body{
 }
 
 img{
-    padding: 10px;
-    background-color: rgba(44, 161, 161, 0.5);
-
+    background-color: whitesmoke;
 }
 
 #me{
