@@ -8,7 +8,7 @@ html{
     color: rgba(0,0,0,0.8);
     font-size: xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px 0 10px 0;
+    margin: 70px 0 20px;
 }
 
 #name{
@@ -32,10 +32,6 @@ img{
     font-size: x-large;
 }
 
-#contact{
-    text-align: center;
-}
-
 .title{
     text-align: center;
     font-weight: 700;
@@ -45,4 +41,17 @@ img{
 a:hover{
     padding: 1px;
     background-color: red;
+}
+
+.card{
+    margin: 2px;
+    padding: 6px;
+    overflow: auto;
+}
+
+#contact-one{
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 5px;
+
 }

@@ -9,105 +9,118 @@
         <title>My Portfolio</title>
     </head>
     <body>
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar fixed-top navbar-dark bg-dark px-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="https://svgsilh.com/svg/33798.svg" alt="" width="30" height="35" class="d-inline-block align-text-top text-light">
                     Toshbott
                 </a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading3">Contact</a>
+                    </li>
+                </ul>
             </div>
         </nav>
+
         <div class="heading">
             <h1><strong>Hello, I'm <span id="name">Gitonga Njeru</span><br> I'm a full-stack web developer based in Nairobi, Kenya</strong></h1>
         </div>
 
-        <div class="container">
-            <div>
-                <h2 class="text-center">Past Projects</h2>
-            </div>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <div class="container">
+                <h2 id="scrollspyHeading2" class="text-center">Past Projects</h2>
 
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card bg-dark text-light">
-                        <img src="img/jumpstock.PNG" class="card-img-top" alt="website screenshot">
-                        <div class="card_body">
-                            <h5 class="card-title">My Favorite Band Website.</h5>
-                            <p class="card-text"> 
-                                This project involved creating a website of my favorite band, Linkin Park. It contains a list of my favorite 
-                                hits from the band, their albums, and a short bio for each band member. Only HTML and CSS languages were used
-                            </p>
-                            <a href="https://dennisnjeru9.github.io/my_favorite_band/" target="_blank" class="btn btn-primary">Go to website</a>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card bg-dark text-light">
+                            <img src="img/jumpstoc.PNG" class="card-img-top" alt="website screenshot">
+                            <div class="card_body">
+                                <h5 class="card-title">Stock Up</h5>
+                                <p class="card-text"> 
+                                    This project involved creating a website of my favorite band, Linkin Park. It contains a list of my favorite 
+                                    hits from the band, their albums, and a short bio for each band member. Only HTML and CSS languages were used
+                                </p>
+                                <a href="http://jumpstock.herokuapp.com/" target="_blank" class="btn btn-primary">Go to website</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-sm-4">
-                    <div class="card bg-dark text-light">
-                        <img src="" class="card-img-top" alt="website screenshot">
-                        <div class="card_body">
-                            <h5 class="card-title">Anitas Kitchen Landing Page.</h5>
-                            <p class="card-text">
-                                This project involved recreating the landing page of a restaurant called Anitas Kitchen. It contained a list
-                                of drinks and foods served at the restaurant, contacts, and testimonials. The main langauges used were HTML and CSS
-                            </p>
-                            <a href="https://dennisnjeru9.github.io/Anitas-Kitchen/" target="_blank" class="btn btn-primary">Go to website</a>
+                    <div class="col-sm-4">
+                        <div class="card bg-dark text-light">
+                            <img src="img/igallery.PNG" class="card-img-top" alt="website screenshot">
+                            <div class="card_body">
+                                <h5 class="card-title">iGallery</h5>
+                                <p class="card-text">
+                                    This project involved recreating the landing page of a restaurant called Anitas Kitchen. It contained a list
+                                    of drinks and foods served at the restaurant, contacts, and testimonials. The main langauges used were HTML and CSS
+                                </p>
+                                <a href="https://phigallery.herokuapp.com/" target="_blank" class="btn btn-primary">Go to website</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-sm-4">
-                    <div class="card bg-dark text-light">
-                        <img src="" alt="website screenshot" class="card-img-top">
-                        <div class="card-body"></div>
-                            <h5 class="card-title">Dairy Business Website.</h5>
-                            <p class="card-text">
-                                This project entailed creating a website for monitoring my dairy business. The contents included daily and monthly
-                                production rates, daily earnings, monthly earnings, and annual earnings. It incorporates HTML, CSS, and JS langauges.
-                            </p>
-                            <a href="https://dennisnjeru9.github.io/Dairy_Business/" target="_blank" class="btn btn-primary">Click here</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card bg-dark text-light">
-                        <img src="" alt="website screenshot" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Share Feedback Website.</h5>
-                            <p class="card-text">
-                                This was a collaborative project involving four members. Basically Share Feedback is a website that works with testers
-                                to give product feedback to manufacturers and creators. It has a client and tester side.
-                            </p>
-                            <a href="https://clarelimo.github.io/Share-Feedback/" target="_blank" class="btn btn-primary">Go to website</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="card bg-dark text-light">
-                        <img src="" alt="website screenshot" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">My Portfolio.</h5>
-                            <p class="card-text">
-                                This project includes the creation of a porfolio landing page. Here I shared a few things about me, particularly education
-                                job experience, reasons for joining programming school, github projects, and hobbies/interests.
-                            </p>
-                            <a href="https://dennisnjeru9.github.io/portfolio-landing-page/" target="_blank" class="btn btn-primary">Go to website</a>
+                    <div class="col-sm-4">
+                        <div class="card bg-dark text-light">
+                            <img src="img/instaclone.PNG" alt="website screenshot" class="card-img-top">
+                            <div class="card-body"></div>
+                                <h5 class="card-title">Instaclone.</h5>
+                                <p class="card-text">
+                                    This project entailed creating a website for monitoring my dairy business. The contents included daily and monthly
+                                    production rates, daily earnings, monthly earnings, and annual earnings. It incorporates HTML, CSS, and JS langauges.
+                                </p>
+                                <a href="https://phiinsta.herokuapp.com/" target="_blank" class="btn btn-primary">Go to website</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card bg-dark text-light">
+                            <img src="" alt="website screenshot" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Share Feedback Website.</h5>
+                                <p class="card-text">
+                                    This was a collaborative project involving four members. Basically Share Feedback is a website that works with testers
+                                    to give product feedback to manufacturers and creators. It has a client and tester side.
+                                </p>
+                                <a href="https://clarelimo.github.io/Share-Feedback/" target="_blank" class="btn btn-primary">Go to website</a>
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="container">
-            <h2 id="contact">Contacts</h2>
-            <div class="socials">
-                <div><a href="https://www.linkedin.com/in/dennis-gitonga-227246193/" target="_blank">LinkedIn</a></div>
-                <div><a href="https://www.thephi.co.ke" target="_blank">Website</a></div>
-                <div><a href="https://github.com/DennisNjeru9" target="_blank">Github</a></div>
+                    <div class="col-sm-6">
+                        <div class="card bg-dark text-light">
+                            <img src="" alt="website screenshot" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">My Portfolio.</h5>
+                                <p class="card-text">
+                                    This project includes the creation of a porfolio landing page. Here I shared a few things about me, particularly education
+                                    job experience, reasons for joining programming school, github projects, and hobbies/interests.
+                                </p>
+                                <a href="https://dennisnjeru9.github.io/portfolio-landing-page/" target="_blank" class="btn btn-primary">Go to website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="contact-one">
+                <h2 id="scrollspyHeading3" class="text-center">Contacts</h2>
+                <div>
+                    <div><a href="https://www.linkedin.com/in/dennis-gitonga-227246193/" target="_blank">LinkedIn</a></div>
+                    <div><a href="https://www.thephi.co.ke" target="_blank">Website</a></div>
+                    <div><a href="https://github.com/DennisNjeru9" target="_blank">Github</a></div>
+                </div>
             </div>
         </div>
     </body>
