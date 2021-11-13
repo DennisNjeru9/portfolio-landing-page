@@ -12,7 +12,7 @@ html{
 }
 
 #name{
-    color: darkgreen;
+    color:#998F03;
 }
 
 #about{
@@ -38,24 +38,40 @@ img{
     color: #040467;
 }
 
-a:hover{
-    padding: 1px;
-    background-color: red;
-}
 
 .card{
-    margin: 2px;
-    padding: 6px;
+    padding: 10px;
     overflow: auto;
+    background-color: rgba(189,186,151, 0.05);
+    
 }
 
 #contact-one{
     border: 1px solid black;
     border-radius: 6px;
     margin-top: 5px;
+    margin-bottom: 10px;
 
 }
 
 .row{
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px
+}
+
+.bg-dark{
+    opacity: 0.85;
+}
+
+.card-title{
+    color:#998F03;
+    text-align: center;
+}
+
+.btn{
+    background-color: #A8B8BD;
+}
+
+li{
+    text-align: center;
 }
