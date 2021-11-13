@@ -3,11 +3,6 @@ html{
     margin: auto;
 }
 
-body{
-    background-image: url("ocean1.jpg");
-    background-size: cover;
-}
-
 .heading{
     text-align: center;
     color: rgba(0,0,0,0.8);
@@ -31,77 +26,6 @@ img{
     background-color: whitesmoke;
 }
 
-#me{
-    color: rgba(6,25,204,0.9);
-}
-
-.about_me{
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid #319494;
-    border-radius: 6px;
-    margin-bottom: 20px;
-}
-
-#education{
-    padding: 5px 60px 5px 50px;
-    background-color: rgba(0,224,128,0.6);
-    font-size: large;
-}
-
-#job{
-    padding: 5px 50px 5px 50px;
-    background-color:rgba(113,191,191,0.6);
-    font-size: large;
-}
-
-#hobbies{
-    padding: 5px 40px 5px 20px;
-    background-color: rgba(0,224,128,0.6);
-    font-size: large;
-}
-
-.moringa{
-    border: 1px solid rgb(91,228,169);
-    border-radius: 6px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    background-color: rgba(91,228,169,0.4);
-}
-
-#moringa{
-    text-align: center;
-    margin: 5px;
-}
-
-#joining_moringa{
-    display: flex;
-    justify-content: center;
-    margin: 0 100px 0 100px;
-    font-size: large;
-}
-
-.first_projects{
-    display: flex;
-    justify-content: space-around;
-    font-size: large;
-}
-
-.second_projects{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: large;
-}
-
-.projects{
-    text-align: center;
-}
-
-.projects,p{
-    font-size: large;
-}
-
 .socials{
     display: flex;
     justify-content: space-around;
@@ -112,65 +36,9 @@ img{
     text-align: center;
 }
 
-.contact{
-    border: 2px solid rgb(91,228,169);
-    border-radius: 7px;
-    margin-bottom: 1px;
-    background-color: rgba(245,245,245,0.4);
-}
-
-#favorite{
-    padding: 3px;
-    background-color: rgba(98,169,224,0.7);
-    margin: 5px;
-}
-
-#anitas{
-    padding: 3px;
-    background-color: rgba(33,143,227,0.25);
-    margin: 5px;
-}
-
-#dairy{
-    padding: 3px;
-    background-color: rgba(98,169,224,0.7);
-    margin: 5px;
-}
-
-#share{
-    margin: 5px 5px 5px 40px;
-    padding: 5px;
-    background-color: rgba(33,143,227,0.25);
-}
-
-#portfolio{
-    margin: 5px 40px 5px 5px;
-    padding: 5px;
-    background-color: rgba(98,169,224,0.5);
-}
-
-.github{
-    margin-top: 10px;
-    margin-bottom: 15px;
-    padding: 2px;
-    background-color: rgba(245,245,245,0.8);
-    border: 1px solid #319494;
-    border-radius: 6px;
-}
-
 .title{
     text-align: center;
     font-weight: 700;
-    color: #040467;
-}
-
-h2{
-    color: #1b0366;
-    font-size: xx-large;
-}
-
-h3{
-    text-align: center;
     color: #040467;
 }
 
