@@ -41,7 +41,7 @@ img{
 
 .card{
     padding: 10px;
-    overflow: auto;
+    /* overflow: auto; */
     background-color: rgba(189,186,151, 0.05);
     
 }
@@ -74,4 +74,61 @@ img{
 
 li{
     text-align: center;
+}
+
+
+#jumpstock{
+    position: relative;
+}
+
+#stockup{
+    background-color: rgba(245, 245, 245, 0.7);
+    position: absolute;
+    display: none;
+    border-radius: 7px;
+}
+
+#igallery{
+    position: relative;
+}
+
+#igaler{
+    background-color: rgba(245, 245, 245, 0.7);
+    position: absolute;
+    display: none;
+    border-radius: 7px;
+}
+
+#instaclone{
+    
+    position: relative;
+}
+
+#insta{
+    background-color: rgba(245, 245, 245, 0.7);
+    position: absolute;
+    display: none;
+    border-radius: 7px;
+}
+
+#sharefeed{
+    position: relative;
+}
+
+#share{
+    background-color: rgba(245, 245, 245, 0.7);
+    position: absolute;
+    display: none;
+    border-radius: 7px;
+}
+
+#githubsearch{
+    position: relative;
+}
+
+#search{
+    background-color: rgba(245, 245, 245, 0.7);
+    position: absolute;
+    display: none;
+    border-radius: 7px;
 }
