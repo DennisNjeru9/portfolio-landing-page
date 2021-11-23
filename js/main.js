@@ -29,5 +29,11 @@ $(document).ready(function(){
         $("#search").fadeOut(7000);
     });
 
+    $("#fundi").hover(function(){
+        $("#mtaani").fadeIn(6000);
+    }, function(){
+        $("#mtaani").fadeOut(7000);
+    });
+
     event.preventDefault();
 });

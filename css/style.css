@@ -82,7 +82,7 @@ li{
 }
 
 #stockup{
-    background-color: rgba(245, 245, 245, 0.7);
+    background-color: rgba(245, 245, 245, 0.9);
     position: absolute;
     display: none;
     border-radius: 7px;
@@ -93,7 +93,7 @@ li{
 }
 
 #igaler{
-    background-color: rgba(245, 245, 245, 0.7);
+    background-color: rgba(245, 245, 245, 0.9);
     position: absolute;
     display: none;
     border-radius: 7px;
@@ -105,7 +105,7 @@ li{
 }
 
 #insta{
-    background-color: rgba(245, 245, 245, 0.7);
+    background-color: rgba(245, 245, 245, 0.9);
     position: absolute;
     display: none;
     border-radius: 7px;
@@ -116,7 +116,7 @@ li{
 }
 
 #share{
-    background-color: rgba(245, 245, 245, 0.7);
+    background-color: rgba(245, 245, 245, 0.9);
     position: absolute;
     display: none;
     border-radius: 7px;
@@ -127,7 +127,18 @@ li{
 }
 
 #search{
-    background-color: rgba(245, 245, 245, 0.7);
+    background-color: rgba(245, 245, 245, 0.9);
+    position: absolute;
+    display: none;
+    border-radius: 7px;
+}
+
+#fundi{
+    position: relative;
+}
+
+#mtaani{
+    background-color: rgba(245, 245, 245, 0.9);
     position: absolute;
     display: none;
     border-radius: 7px;
